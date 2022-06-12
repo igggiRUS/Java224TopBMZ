@@ -1,6 +1,16 @@
 package hw03;
 
 import java.util.Scanner;
+/**
+ * 
+ * @author misha
+ *Задание 4
+Дана точка на плоскости заданная координатами x и y,
+определить и вывести в консоль, в какой четверти находит-
+ся точка, в прямоугольной (декартовой) системе координат.
+Четверти обозначены римскими цифрами.
+
+ */
 
 public class task04 {
 	public static void main(String[] args) {
@@ -17,15 +27,15 @@ public class task04 {
 		sc.close();
 
 		if (x < 0 & y < 0) {
-			System.out.println("III");
+			System.out.println("Ответ: III");
 		} else if (x > 0 & y > 0) {
-			System.out.println("I");
+			System.out.println("Ответ: I");
 		} else if (x > 0 & y < 0) {
-			System.out.println("IV");
+			System.out.println("Ответ: IV");
 		} else if (x < 0 & y > 0) {
-			System.out.println("II");
+			System.out.println("Ответ: II");
 		} else {
-			System.out.println("Магия");
+			System.out.println("Ответ: Магия");
 		}
 	}
 }
