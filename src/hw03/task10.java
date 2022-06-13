@@ -12,7 +12,5 @@ public class task10 {
 		sc.close();
 
 		System.out.println("Подъезд № " + (n / (m * 9)));
-
-		
 	}
 }

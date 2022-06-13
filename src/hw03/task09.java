@@ -1,6 +1,6 @@
 package hw03;
 
-<<<<<<< HEAD
+
 import java.util.Scanner;
 
 public class task09 {
@@ -29,13 +29,5 @@ public class task09 {
 		
 		}
 	}
-=======
-public class task09 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-// этот файл сделан на ноуте
-	}
-
->>>>>>> 68cd4a6f43ed86c5832bf24d7ebdedd29a6bc735
 }
+

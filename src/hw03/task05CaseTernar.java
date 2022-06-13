@@ -2,7 +2,7 @@ package hw03;
 
 import java.util.Scanner;
 
-public class task05v6 {
+public class task05CaseTernar {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class task05v6 {
 		if (sc.hasNextInt()) {
 			int dayBirthDay = sc.nextInt();
 			if (1 <= dayBirthDay && dayBirthDay < 31) {
-				System.err.println("ВХОДИТ в диапозон дней в месяце");
+//				System.err.println("ВХОДИТ в диапозон дней в месяце");
 			} else {
 				System.out.println("НЕ входит в диапозон дней в месяце");
 			}
@@ -20,7 +20,7 @@ public class task05v6 {
 
 			int mountBirthDay = sc.nextInt();
 			if (1 <= mountBirthDay && mountBirthDay < 31) {
-				System.err.println("ВХОДИТ в диапозон дней в месяце");
+//				System.err.println("ВХОДИТ в диапозон дней в месяце");
 			} else {
 				System.out.println("НЕ входит в диапозон дней в месяце");
 			}
@@ -29,7 +29,7 @@ public class task05v6 {
 
 			int yearBirthDay = sc.nextInt();
 			if (-1_000_000 < yearBirthDay && yearBirthDay < 100022) {
-				System.err.println("ВХОДИТ в диапозон лет");
+//				System.err.println("ВХОДИТ в диапозон лет");
 
 				int yearsChina = (yearBirthDay % 12);
 				switch (yearsChina) {
@@ -84,88 +84,52 @@ public class task05v6 {
 			}
 			switch (mountBirthDay) {
 			case 1:
-				if (dayBirthDay < 22) {
-					System.out.println("Козерог");
-				} else {
-					System.out.println("Водолей");
-				}
-				break;
+				String answer1 = mountBirthDay == 1 && dayBirthDay < 22 ? "Козерог" : "Водолей";
+				System.out.println(answer1);
+				break;				
 			case 2:
-				if (dayBirthDay < 20) {
-					System.out.println("Водолей");
-				} else {
-					System.out.println("Рыбы");
-				}
+				String answer2 = mountBirthDay == 2 && dayBirthDay < 22 ? "Водолей" : "Рыба";
+				System.out.println(answer2);
 				break;
 			case 3:
-				if (dayBirthDay < 19) {
-					System.out.println("Рыбы");
-				} else {
-					System.out.println("Овен");
-				}
+				String answer3 = mountBirthDay == 3 && dayBirthDay < 20 ? "Рыба" : "Овен";
+				System.out.println(answer3);
 				break;
 			case 4:
-				if (dayBirthDay < 21) {
-					System.out.println("Овен");
-				} else {
-					System.out.println("Телец");
-				}
+				String answer4 = mountBirthDay == 4 && dayBirthDay < 21 ? "Овен" : "Телец";
+				System.out.println(answer4);
 				break;
 			case 5:
-				if (dayBirthDay < 20) {
-					System.out.println("Телец");
-				} else {
-					System.out.println("Близнецы");
-				}
+				String answer5 = mountBirthDay == 5 && dayBirthDay < 20 ? "Телец" : "Близнецы";
+				System.out.println(answer5);
 				break;
 			case 6:
-				if (dayBirthDay < 21) {
-					System.out.println("Близнецы");
-				} else {
-					System.out.println("Рак");
-				}
+				String answer6 = mountBirthDay == 6 && dayBirthDay < 21 ? "Близнецы" : "Рак";
+				System.out.println(answer6);
 				break;
 			case 7:
-				if (dayBirthDay < 21) {
-					System.out.println("Рак");
-				} else {
-					System.out.println("Лев");
-				}
+				String answer7 = mountBirthDay == 7 && dayBirthDay < 21 ? "Рак" : "Лев";
+				System.out.println(answer7);
 				break;
 			case 8:
-				if (dayBirthDay < 23) {
-					System.out.println("Лев");
-				} else {
-					System.out.println("Дева");
-				}
+				String answer8 = mountBirthDay == 8 && dayBirthDay < 23 ? "Лев" : "Дева";
+				System.out.println(answer8);
 				break;
 			case 9:
-				if (dayBirthDay < 23) {
-					System.out.println("Дева");
-				} else {
-					System.out.println("Весы");
-				}
+				String answer9 = mountBirthDay == 9 && dayBirthDay < 22 ? "Дева" : "Весы";
+				System.out.println(answer9);
 				break;
 			case 10:
-				if (dayBirthDay < 23) {
-					System.out.println("Весы");
-				} else {
-					System.out.println("Скорпион");
-				}
+				String answer10 = mountBirthDay == 10 && dayBirthDay < 23 ? "Весы" : "Скорпион";
+				System.out.println(answer10);
 				break;
 			case 11:
-				if (dayBirthDay < 23) {
-					System.out.println("Скорпион");
-				} else {
-					System.out.println("Стрелец");
-				}
+				String answer11 = mountBirthDay == 11 && dayBirthDay < 22 ? "Скорион" : "Стрелец";
+				System.out.println(answer11);
 				break;
 			case 12:
-				if (dayBirthDay < 23) {
-					System.out.println("Стрелец");
-				} else {
-					System.out.println("Козерог");
-				}
+				String answer12 = mountBirthDay == 12 && dayBirthDay < 23 ? "Стрелец" : "Козерог";
+				System.out.println(answer12);
 				break;
 			default:
 				System.err.println("Ошибка");
