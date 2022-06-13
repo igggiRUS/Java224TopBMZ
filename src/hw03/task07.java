@@ -10,6 +10,7 @@ public class task07 {
 		String symbol = sc.nextLine();
 		char a = symbol.charAt(0);
 		System.out.println(a);
+		sc.close();
 //        if(char[a-Az-Z]()==true)
 //        {
 //            System.out.println("Латиница");

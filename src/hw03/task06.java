@@ -2,7 +2,7 @@ package hw03;
 
 import java.util.Scanner;
 
-public class task06v2 {
+public class task06 {
 	public static void main(String[] args) {
 		System.out.println("Введите год и мы выясним високосный он или нет: ");
 		Scanner sc = new Scanner(System.in);

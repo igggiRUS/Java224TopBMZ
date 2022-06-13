@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class task08 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("inpun number");
 		int a = sc.nextInt();
 		System.out.println("inpun number");
 		int b = sc.nextInt();
+		sc.close();
 		System.out.println(a + " " + b);
 		if ((a % 2) == 0 && (b % 2) == 0) {
 			System.out.println("Ответ: Yes");
