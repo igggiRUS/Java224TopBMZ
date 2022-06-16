@@ -13,6 +13,8 @@ public class task11 {
 		double b = sc.nextDouble();
 		double c = sc.nextDouble();
 		sc.close();
+		System.out.printf("%d %d %d", a, b, c);
+
 //		System.out.println("ax^2 + bx + c = 0 Квадратное уравнение");
 
 // D дискриминант решается по готовой формуле
