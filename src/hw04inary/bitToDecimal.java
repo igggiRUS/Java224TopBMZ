@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Программа переводит битвое значение в десятичное число
  */
-public class bitToInt {
+public class bitToDecimal {
 	public static void main(String[] args) {
 		System.out.println("Введите число побитовое только 0 и 1");
 		Scanner scanner = new Scanner(System.in);

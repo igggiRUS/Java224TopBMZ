@@ -1,7 +1,29 @@
 package hw04inary;
 
-public class Primitives {
+public class infoBytesPrimitives {
 	public static void main(String[] args) {
+		// форма записи побитовго числа
+		int a = 0b100;
+		System.out.println("Битовая форма записи числа int = 0b100\nРавна десятичному числу: " + a);
+		int bitMax = 0b1111111111111111111111111111111;
+		int bitMinus = 0b10000000000000000000000000000000;
+		String pluse = "1111111111111111111111111111111";
+		String minus = "10000000000000000000000000000000";
+		System.out.println("так выглядит максимально возможное число в десятичном виде: " + bitMax);
+		System.out.println("так выглядит отрицательное число: " + bitMinus);
+		System.out.printf("\nМаксимальная длинна строки %d символов положительного числа ", pluse.length());
+		System.out.printf("\nМаксимальная длинна строки %d символов отрицательного числа ", minus.length());
+		System.out.println(
+				"\nПри записи 32 символов число становится отритацельным так как как первое число (32) задает при значении 1 отрицательное число");
+// побитовое НЕ
+		int x = 342;
+		System.err.println("побитовое ДА");
+		System.out.println(Integer.toBinaryString(x));
+		System.err.println("побитовое НЕ");
+		System.out.println(Integer.toBinaryString(~x));
+		
+		System.out.println("Виды записей в разных системах");
+		
 	    byte b1 = 0xC; // HEX
 	    byte b2 = 12; // DEC
 	    byte b3 = 014; // OCT
@@ -35,7 +57,6 @@ public class Primitives {
 	    String string2 = "чар для одиночного символа стринд для строки";
 	    String string3 = "Hello";
 	    String string4 = "BB";
-
 
 	    char char1 = 'M';
 	    char char2 = '\u004D'; // система unicode
@@ -82,7 +103,5 @@ public class Primitives {
 	    System.out.println(char2);
 	    System.out.println(char3);
 	    System.out.println(char4);
-	  }
 	}
-
-
+}
