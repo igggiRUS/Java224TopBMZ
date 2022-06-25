@@ -8,6 +8,8 @@ import java.util.Scanner;
  * Перевод в отрицательное двоичное число число
  * Перевод в отрицательное десятичное число
  * Так же добавляте нули перед положительным числом
+ * Конвертировать числа не просто пришлось рыться гуглить стекОверфлоу помог 
+ * https://stackoverflow.com/questions/14883428/java-convert-binary-string-to-int
  */
 
 public class binPositiveNegativeDecimal {
