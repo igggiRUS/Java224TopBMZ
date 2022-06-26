@@ -1,0 +1,806 @@
+
+
+Sun Jun 26 16:09:50 2022
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.13.0-51-generic (#58~20.04.1-Ubuntu SMP Tue Jun 14 11:29:12 UTC 2022) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'ru_RU.UTF-8'.
+
+
+Sun Jun 26 16:09:57 2022
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.13.0-51-generic (#58~20.04.1-Ubuntu SMP Tue Jun 14 11:29:12 UTC 2022) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       250069680 sectors
+/dev/sda: user_max   250069680 sectors
+/dev/sda: native_max 250069680 sectors
+/dev/sda: dco        250069680 sectors
+/dev/sdb: LBA, HPA, LBA48, DCO support
+/dev/sdb: size       1953525168 sectors
+/dev/sdb: user_max   1953525168 sectors
+/dev/sdb: native_max 1953525168 sectors
+/dev/sdb: dco        1953525168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop54 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 128 GB / 119 GiB - CHS 15566 255 63, sector size=512 - Apacer AS350 128GB, S/N:1B06078C130805607037, FW:AP612PE0
+Disk /dev/sdb - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - WDC WD10EZEX-22MFCA0, S/N:WD-WCC6Y4FSXEZD, FW:01.01A01
+Disk /dev/loop0 - 195 MB / 186 MiB - 382784 sectors (RO), sector size=512
+Disk /dev/loop1 - 109 MB / 104 MiB - 213024 sectors (RO), sector size=512
+Disk /dev/loop10 - 73 MB / 70 MiB - 144184 sectors (RO), sector size=512
+Disk /dev/loop11 - 128 MB / 122 MiB - 250744 sectors (RO), sector size=512
+Disk /dev/loop12 - 110 MB / 105 MiB - 216360 sectors (RO), sector size=512
+Disk /dev/loop13 - 49 MB / 46 MiB - 96160 sectors (RO), sector size=512
+Disk /dev/loop14 - 68 MB / 65 MiB - 133552 sectors (RO), sector size=512
+Disk /dev/loop15 - 229 MB / 219 MiB - 448512 sectors (RO), sector size=512
+Disk /dev/loop16 - 260 MB / 248 MiB - 509456 sectors (RO), sector size=512
+Disk /dev/loop17 - 186 MB / 178 MiB - 365032 sectors (RO), sector size=512
+Disk /dev/loop18 - 271 MB / 258 MiB - 529728 sectors (RO), sector size=512
+Disk /dev/loop19 - 9416 KB / 9196 KiB - 18392 sectors (RO), sector size=512
+Disk /dev/loop2 - 86 MB / 82 MiB - 168448 sectors (RO), sector size=512
+Disk /dev/loop20 - 361 MB / 344 MiB - 705672 sectors (RO), sector size=512
+Disk /dev/loop21 - 271 MB / 258 MiB - 529728 sectors (RO), sector size=512
+Disk /dev/loop22 - 119 MB / 113 MiB - 233240 sectors (RO), sector size=512
+Disk /dev/loop23 - 53 MB / 51 MiB - 104536 sectors (RO), sector size=512
+Disk /dev/loop24 - 361 MB / 344 MiB - 705672 sectors (RO), sector size=512
+Disk /dev/loop25 - 101 MB / 97 MiB - 198928 sectors (RO), sector size=512
+Disk /dev/loop26 - 64 MB / 61 MiB - 126808 sectors (RO), sector size=512
+Disk /dev/loop27 - 56 MB / 54 MiB - 111080 sectors (RO), sector size=512
+Disk /dev/loop28 - 920 MB / 877 MiB - 1797040 sectors (RO), sector size=512
+Disk /dev/loop29 - 23 MB / 22 MiB - 46112 sectors (RO), sector size=512
+Disk /dev/loop3 - 86 MB / 82 MiB - 168592 sectors (RO), sector size=512
+Disk /dev/loop30 - 716 MB / 683 MiB - 1399024 sectors (RO), sector size=512
+Disk /dev/loop31 - 172 MB / 164 MiB - 337424 sectors (RO), sector size=512
+Disk /dev/loop32 - 231 MB / 220 MiB - 451568 sectors (RO), sector size=512
+Disk /dev/loop33 - 15 MB / 14 MiB - 29336 sectors (RO), sector size=512
+Disk /dev/loop34 - 57 MB / 55 MiB - 112840 sectors (RO), sector size=512
+Disk /dev/loop35 - 716 MB / 683 MiB - 1399040 sectors (RO), sector size=512
+Disk /dev/loop36 - 231 MB / 220 MiB - 451568 sectors (RO), sector size=512
+Disk /dev/loop37 - 28 MB / 27 MiB - 55568 sectors (RO), sector size=512
+Disk /dev/loop38 - 10 MB / 10 MiB - 21432 sectors (RO), sector size=512
+Disk /dev/loop39 - 85 MB / 81 MiB - 166424 sectors (RO), sector size=512
+Disk /dev/loop4 - 67 MB / 64 MiB - 132304 sectors (RO), sector size=512
+Disk /dev/loop40 - 15 MB / 14 MiB - 29328 sectors (RO), sector size=512
+Disk /dev/loop41 - 77 MB / 74 MiB - 151632 sectors (RO), sector size=512
+Disk /dev/loop42 - 101 MB / 97 MiB - 198976 sectors (RO), sector size=512
+Disk /dev/loop43 - 920 MB / 877 MiB - 1797064 sectors (RO), sector size=512
+Disk /dev/loop44 - 143 KB / 140 KiB - 280 sectors (RO), sector size=512
+Disk /dev/loop45 - 64 MB / 61 MiB - 126824 sectors (RO), sector size=512
+Disk /dev/loop46 - 46 MB / 44 MiB - 91544 sectors (RO), sector size=512
+Disk /dev/loop47 - 741 KB / 724 KiB - 1448 sectors (RO), sector size=512
+Disk /dev/loop48 - 266 MB / 254 MiB - 520384 sectors (RO), sector size=512
+Disk /dev/loop49 - 87 MB / 82 MiB - 169968 sectors (RO), sector size=512
+Disk /dev/loop5 - 77 MB / 74 MiB - 151632 sectors (RO), sector size=512
+Disk /dev/loop50 - 57 MB / 55 MiB - 112848 sectors (RO), sector size=512
+Disk /dev/loop51 - 68 MB / 64 MiB - 132816 sectors (RO), sector size=512
+Disk /dev/loop52 - 58 MB / 55 MiB - 113696 sectors (RO), sector size=512
+Disk /dev/loop53 - 229 MB / 218 MiB - 448496 sectors (RO), sector size=512
+Disk /dev/loop6 - 9396 KB / 9176 KiB - 18352 sectors (RO), sector size=512
+Disk /dev/loop7 - 117 MB / 111 MiB - 228816 sectors (RO), sector size=512
+Disk /dev/loop8 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop9 - 58 MB / 55 MiB - 113736 sectors (RO), sector size=512
+
+Partition table type (auto): Intel
+Disk /dev/sdb - 1000 GB / 931 GiB - WDC WD10EZEX-22MFCA0
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=2
+BAD_RS LBA=2048 64512
+ 1 * Linux                    0  32 33 121601  55  3 1953521485
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1000 GB / 931 GiB
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/7452, s_mnt_count=147/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 244190185
+recover_EXT2: part_size 1953521480
+Filesystem created: Wed Apr 27 05:45:52 2022
+Last mount time:    Sun Jun 26 09:55:16 2022
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+block_group_nr 1
+
+recover_EXT2: "e2fsck -b 32768 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=1/7452, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 244190185
+recover_EXT2: part_size 1953521480
+Filesystem created: Wed Apr 27 05:45:52 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+block_group_nr 3
+
+recover_EXT2: "e2fsck -b 98304 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=3/7452, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 244190185
+recover_EXT2: part_size 1953521480
+Filesystem created: Wed Apr 27 05:45:52 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+block_group_nr 5
+
+recover_EXT2: "e2fsck -b 163840 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=5/7452, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 244190185
+recover_EXT2: part_size 1953521480
+Filesystem created: Wed Apr 27 05:45:52 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+block_group_nr 7
+
+recover_EXT2: "e2fsck -b 229376 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=7/7452, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 244190185
+recover_EXT2: part_size 1953521480
+Filesystem created: Wed Apr 27 05:45:52 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+block_group_nr 9
+
+recover_EXT2: "e2fsck -b 294912 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=9/7452, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 244190185
+recover_EXT2: part_size 1953521480
+Filesystem created: Wed Apr 27 05:45:52 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+block_group_nr 25
+
+recover_EXT2: "e2fsck -b 819200 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=25/7452, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 244190185
+recover_EXT2: part_size 1953521480
+Filesystem created: Wed Apr 27 05:45:52 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+block_group_nr 27
+
+recover_EXT2: "e2fsck -b 884736 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=27/7452, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 244190185
+recover_EXT2: part_size 1953521480
+Filesystem created: Wed Apr 27 05:45:52 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+block_group_nr 49
+
+recover_EXT2: "e2fsck -b 1605632 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=49/7452, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 244190185
+recover_EXT2: part_size 1953521480
+Filesystem created: Wed Apr 27 05:45:52 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+block_group_nr 81
+
+recover_EXT2: "e2fsck -b 2654208 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=81/7452, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 244190185
+recover_EXT2: part_size 1953521480
+Filesystem created: Wed Apr 27 05:45:52 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                    0  32 33 121601  54 61 1953521480
+superblock 0, blocksize=4096 []
+superblock 32768, blocksize=4096 []
+superblock 98304, blocksize=4096 []
+superblock 163840, blocksize=4096 []
+superblock 229376, blocksize=4096 []
+superblock 294912, blocksize=4096 []
+superblock 819200, blocksize=4096 []
+superblock 884736, blocksize=4096 []
+superblock 1605632, blocksize=4096 []
+superblock 2654208, blocksize=4096 []
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+
+
+dir_partition inode=2
+ 1 * Linux                    0  32 33 121601  55  3 1953521485
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1000 GB / 931 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 23-May-2022 14:40 .
+       2 drwxr-xr-x     0      0      4096 23-May-2022 14:40 ..
+      11 drwx------     0      0     16384 27-Apr-2022 05:45 lost+found
+ 12582913 drwxr-xr-x     0      0      4096 26-Jun-2022 14:02 timeshift
+  262145 drwxr-xr-x  1000   1000      4096 26-Jun-2022 12:16 misha
+
+dir_partition inode=262145
+ 1 * Linux                    0  32 33 121601  55  3 1953521485
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1000 GB / 931 GiB
+Directory /misha
+  262145 drwxr-xr-x  1000   1000      4096 26-Jun-2022 12:16 .
+       2 drwxr-xr-x     0      0      4096 23-May-2022 14:40 ..
+  262146 -rw-r--r--  1000   1000       807  2-May-2022 14:59 .profile
+  262147 -rw-r--r--  1000   1000      3771  2-May-2022 14:59 .bashrc
+  262148 -rw-r--r--  1000   1000       220  2-May-2022 14:59 .bash_logout
+  262149 drwx------  1000   1000      4096 25-Jun-2022 00:30 .cache
+  262150 drwx------  1000   1000      4096 26-May-2022 23:26 .local
+  262154 drwx------  1000   1000      4096 25-Jun-2022 00:32 .config
+  262185 drwx------  1000   1000      4096 30-May-2022 18:03 .gnupg
+  262194 drwxr-xr-x  1000   1000      4096 27-May-2022 21:03 Рабочий стол
+  262195 drwxr-xr-x  1000   1000      4096 25-Jun-2022 00:00 Загрузки
+  262196 drwxr-xr-x  1000   1000      4096  2-May-2022 15:06 Шаблоны
+  262197 drwxr-xr-x  1000   1000      4096  2-May-2022 15:06 Общедоступные
+  262198 drwxr-xr-x  1000   1000      4096 25-Jun-2022 21:04 Документы
+  262199 drwxr-xr-x  1000   1000      4096 26-May-2022 23:26 Музыка
+  262200 drwxr-xr-x  1000   1000     12288 25-Jun-2022 00:34 Изображения
+  270337 drwxr-xr-x  1000   1000     12288 20-Jun-2022 10:46 Видео
+  265725 -rw-------  1000   1000     18766 26-Jun-2022 15:56 .bash_history
+  262265 -rw-r--r--  1000   1000         0  2-May-2022 15:13 .sudo_as_admin_successful
+  262341 -rw-rw-r--  1000   1000        24  2-May-2022 15:57 .aspell.en.prepl
+  262342 -rw-rw-r--  1000   1000        31  2-May-2022 15:57 .aspell.en.pws
+  294915 drwx------  1000   1000      4096 25-Jun-2022 00:15 snap
+  294946 drwx------  1000   1000      4096  3-May-2022 17:43 .ssh
+  294953 drwx------  1000   1000      4096  2-May-2022 16:07 .mozilla
+  311333 drwx------  1000   1000      4096  2-May-2022 16:09 .yandex
+  319515 drwx------  1000   1000      4096  2-May-2022 16:09 .pki
+  319534 drwxrwxr-x  1000   1000      4096  2-May-2022 16:09 .java
+  327728 drwxrwxr-x  1000   1000      4096  4-Jun-2022 12:19 .android
+  458786 drwxrwxr-x  1000   1000      4096  2-May-2022 16:53 .vscode
+  540701 drwx------  1000   1000      4096  2-May-2022 18:33 .gnome
+  269965 -rw-rw-r--  1000   1000        66 23-May-2022 21:23 .gitconfig
+  548898 drwxrwxr-x  1000   1000      4096  2-May-2022 19:01 .jdks
+  327778 drwxrwxr-x  1000   1000      4096 24-May-2022 12:27 Downloads
+  294420 -rw-------  1000   1000     27839 26-Jun-2022 12:16 .viminfo
+  344125 drwxrwxr-x  1000   1000      4096  6-May-2022 21:36 VirtualBox VMs
+  294976 drwx------  1000   1000      4096 22-Jun-2022 11:45 .vnc
+  267912 -rw-------  1000   1000     12288 21-May-2022 09:43 .swo
+  434260 drwxrwxr-x  1000   1000      4096 21-May-2022 13:52 .gem
+  426049 drwxrwxr-x  1000   1000      4096  6-May-2022 21:52 .PlayOnLinux
+  266115 lrwxrwxrwx  1000   1000        37  6-May-2022 21:45 PlayOnLinux's virtual drives
+  264516 -rw-rw-r--  1000   1000       161  6-May-2022 21:49 .wget-hsts
+  614471 drwx------  1000   1000      4096  8-May-2022 17:25 .emacs.d
+  264940 -rw-rw-r--  1000   1000    247694 14-May-2022 17:40 mpv-shot0001.jpg
+  303187 drwxrwxr-x  1000   1000      4096 15-May-2022 08:52 .gradle
+  267886 -rw-rw-r--  1000   1000      1760 12-Aug-2013 19:10 YANDEX-DISK-KEY.GPG
+  884750 drwxrwxr-x  1000   1000      4096 15-May-2022 08:52 .m2
+  729180 drwxr-xr-x  1000   1000      4096 18-May-2022 19:18 .anydesk
+  265356 -rw-rw-r--  1000   1000       481 22-May-2022 01:10 java_01.java
+  999505 drwx------  1000   1000      4096 17-May-2022 08:04 .recoll
+  278974 -rw-------  1000   1000     12288 17-May-2022 22:30 .swp
+  303197 drwxr-x---  1000   1000      4096 19-May-2022 21:22 .vim
+  274206 -rw-rw-r--  1000   1000      2887 22-May-2022 10:55 .vimrc
+  753748 drwxrwxr-x  1000   1000      4096 22-May-2022 01:16 dotfiles
+  291639 -rw-rw-r--  1000   1000      2887 22-May-2022 10:55 .vimrc_old
+  262603 -rw-rw-r--  1000   1000         0  7-Jun-2022 20:41 .selected_editor
+  304107 -rw-rw-r--  1000   1000 115698021 21-Jun-2022 15:20 2022-06-21 15-14-11.mkv
+  276312 -rw-r--r--  1000   1000   1764044 22-Jun-2022 12:23 test-mic.wav
+  301648 -rw-rw-r--  1000   1000     62951 25-Jun-2022 23:08 testdisk.log
+  311399 drwxrwxr-x  1000   1000      4096 24-May-2022 21:38 .eclipse
+  344173 drwxrwxr-x  1000   1000      4096 24-May-2022 19:19 .swt
+  909393 drwxrwxr-x  1000   1000      4096 26-Jun-2022 14:22 .p2
+  352359 drwxrwxr-x  1000   1000      4096 29-May-2022 20:07 eclipse-workspace
+  270573 -rw-rw-r--  1000   1000     22992 12-Jun-2022 16:27 зодиаки месяца.ods
+  298667 -rw-rw-r--  1000   1000  17955536 23-Jun-2022 15:35 2022-06-23 15-35-04.mkv
+  335984 drwxrwxr-x  1000   1000      4096 27-May-2022 20:55 eclipse2022
+  761967 drwxrwxr-x  1000   1000      4096 27-May-2022 21:15 .webclipse
+  778351 drwxrwxr-x  1000   1000      4096 27-May-2022 21:27 .codetogether
+  282121 -rw-rw-r--  1000   1000       103 27-May-2022 21:15 .ctsystem
+  300596 -rw-rw-r--  1000   1000 705586781 23-Jun-2022 21:06 2022-06-23 20-31-16.mkv
+  269882 -rw-rw-r--  1000   1000   7707715  4-Jun-2022 13:22 2022-06-04 13-22-03.mkv
+Directory /
+       2 drwxr-xr-x     0      0      4096 23-May-2022 14:40 .
+       2 drwxr-xr-x     0      0      4096 23-May-2022 14:40 ..
+      11 drwx------     0      0     16384 27-Apr-2022 05:45 lost+found
+ 12582913 drwxr-xr-x     0      0      4096 26-Jun-2022 14:02 timeshift
+  262145 drwxr-xr-x  1000   1000      4096 26-Jun-2022 12:16 misha
+
+dir_partition inode=262145
+ 1 * Linux                    0  32 33 121601  55  3 1953521485
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1000 GB / 931 GiB
+Directory /misha
+  262145 drwxr-xr-x  1000   1000      4096 26-Jun-2022 12:16 .
+       2 drwxr-xr-x     0      0      4096 23-May-2022 14:40 ..
+  262146 -rw-r--r--  1000   1000       807  2-May-2022 14:59 .profile
+  262147 -rw-r--r--  1000   1000      3771  2-May-2022 14:59 .bashrc
+  262148 -rw-r--r--  1000   1000       220  2-May-2022 14:59 .bash_logout
+  262149 drwx------  1000   1000      4096 25-Jun-2022 00:30 .cache
+  262150 drwx------  1000   1000      4096 26-May-2022 23:26 .local
+  262154 drwx------  1000   1000      4096 25-Jun-2022 00:32 .config
+  262185 drwx------  1000   1000      4096 30-May-2022 18:03 .gnupg
+  262194 drwxr-xr-x  1000   1000      4096 27-May-2022 21:03 Рабочий стол
+  262195 drwxr-xr-x  1000   1000      4096 25-Jun-2022 00:00 Загрузки
+  262196 drwxr-xr-x  1000   1000      4096  2-May-2022 15:06 Шаблоны
+  262197 drwxr-xr-x  1000   1000      4096  2-May-2022 15:06 Общедоступные
+  262198 drwxr-xr-x  1000   1000      4096 25-Jun-2022 21:04 Документы
+  262199 drwxr-xr-x  1000   1000      4096 26-May-2022 23:26 Музыка
+  262200 drwxr-xr-x  1000   1000     12288 25-Jun-2022 00:34 Изображения
+  270337 drwxr-xr-x  1000   1000     12288 20-Jun-2022 10:46 Видео
+  265725 -rw-------  1000   1000     18766 26-Jun-2022 15:56 .bash_history
+  262265 -rw-r--r--  1000   1000         0  2-May-2022 15:13 .sudo_as_admin_successful
+  262341 -rw-rw-r--  1000   1000        24  2-May-2022 15:57 .aspell.en.prepl
+  262342 -rw-rw-r--  1000   1000        31  2-May-2022 15:57 .aspell.en.pws
+  294915 drwx------  1000   1000      4096 25-Jun-2022 00:15 snap
+  294946 drwx------  1000   1000      4096  3-May-2022 17:43 .ssh
+  294953 drwx------  1000   1000      4096  2-May-2022 16:07 .mozilla
+  311333 drwx------  1000   1000      4096  2-May-2022 16:09 .yandex
+  319515 drwx------  1000   1000      4096  2-May-2022 16:09 .pki
+  319534 drwxrwxr-x  1000   1000      4096  2-May-2022 16:09 .java
+  327728 drwxrwxr-x  1000   1000      4096  4-Jun-2022 12:19 .android
+  458786 drwxrwxr-x  1000   1000      4096  2-May-2022 16:53 .vscode
+  540701 drwx------  1000   1000      4096  2-May-2022 18:33 .gnome
+  269965 -rw-rw-r--  1000   1000        66 23-May-2022 21:23 .gitconfig
+  548898 drwxrwxr-x  1000   1000      4096  2-May-2022 19:01 .jdks
+  327778 drwxrwxr-x  1000   1000      4096 24-May-2022 12:27 Downloads
+  294420 -rw-------  1000   1000     27839 26-Jun-2022 12:16 .viminfo
+  344125 drwxrwxr-x  1000   1000      4096  6-May-2022 21:36 VirtualBox VMs
+  294976 drwx------  1000   1000      4096 22-Jun-2022 11:45 .vnc
+  267912 -rw-------  1000   1000     12288 21-May-2022 09:43 .swo
+  434260 drwxrwxr-x  1000   1000      4096 21-May-2022 13:52 .gem
+  426049 drwxrwxr-x  1000   1000      4096  6-May-2022 21:52 .PlayOnLinux
+  266115 lrwxrwxrwx  1000   1000        37  6-May-2022 21:45 PlayOnLinux's virtual drives
+  264516 -rw-rw-r--  1000   1000       161  6-May-2022 21:49 .wget-hsts
+  614471 drwx------  1000   1000      4096  8-May-2022 17:25 .emacs.d
+  264940 -rw-rw-r--  1000   1000    247694 14-May-2022 17:40 mpv-shot0001.jpg
+  303187 drwxrwxr-x  1000   1000      4096 15-May-2022 08:52 .gradle
+  267886 -rw-rw-r--  1000   1000      1760 12-Aug-2013 19:10 YANDEX-DISK-KEY.GPG
+  884750 drwxrwxr-x  1000   1000      4096 15-May-2022 08:52 .m2
+  729180 drwxr-xr-x  1000   1000      4096 18-May-2022 19:18 .anydesk
+  265356 -rw-rw-r--  1000   1000       481 22-May-2022 01:10 java_01.java
+  999505 drwx------  1000   1000      4096 17-May-2022 08:04 .recoll
+  278974 -rw-------  1000   1000     12288 17-May-2022 22:30 .swp
+  303197 drwxr-x---  1000   1000      4096 19-May-2022 21:22 .vim
+  274206 -rw-rw-r--  1000   1000      2887 22-May-2022 10:55 .vimrc
+  753748 drwxrwxr-x  1000   1000      4096 22-May-2022 01:16 dotfiles
+  291639 -rw-rw-r--  1000   1000      2887 22-May-2022 10:55 .vimrc_old
+  262603 -rw-rw-r--  1000   1000         0  7-Jun-2022 20:41 .selected_editor
+  304107 -rw-rw-r--  1000   1000 115698021 21-Jun-2022 15:20 2022-06-21 15-14-11.mkv
+  276312 -rw-r--r--  1000   1000   1764044 22-Jun-2022 12:23 test-mic.wav
+  301648 -rw-rw-r--  1000   1000     62951 25-Jun-2022 23:08 testdisk.log
+  311399 drwxrwxr-x  1000   1000      4096 24-May-2022 21:38 .eclipse
+  344173 drwxrwxr-x  1000   1000      4096 24-May-2022 19:19 .swt
+  909393 drwxrwxr-x  1000   1000      4096 26-Jun-2022 14:22 .p2
+  352359 drwxrwxr-x  1000   1000      4096 29-May-2022 20:07 eclipse-workspace
+  270573 -rw-rw-r--  1000   1000     22992 12-Jun-2022 16:27 зодиаки месяца.ods
+  298667 -rw-rw-r--  1000   1000  17955536 23-Jun-2022 15:35 2022-06-23 15-35-04.mkv
+  335984 drwxrwxr-x  1000   1000      4096 27-May-2022 20:55 eclipse2022
+  761967 drwxrwxr-x  1000   1000      4096 27-May-2022 21:15 .webclipse
+  778351 drwxrwxr-x  1000   1000      4096 27-May-2022 21:27 .codetogether
+  282121 -rw-rw-r--  1000   1000       103 27-May-2022 21:15 .ctsystem
+  300596 -rw-rw-r--  1000   1000 705586781 23-Jun-2022 21:06 2022-06-23 20-31-16.mkv
+  269882 -rw-rw-r--  1000   1000   7707715  4-Jun-2022 13:22 2022-06-04 13-22-03.mkv
+
+dir_partition inode=262198
+ 1 * Linux                    0  32 33 121601  55  3 1953521485
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1000 GB / 931 GiB
+Directory /misha/Документы
+  262198 drwxr-xr-x  1000   1000      4096 25-Jun-2022 21:04 .
+  262145 drwxr-xr-x  1000   1000      4096 26-Jun-2022 12:16 ..
+  525635 -rw-rw-r--  1000   1000     98292  8-May-2022 21:09 Аватар везде2022.jpg
+  294584 -rw-rw-r--  1000   1000      1676  8-May-2022 23:20 быстрые заметки
+  352322 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .sync
+  352339 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 Akakli
+  843858 drwxrwxr-x  1000   1000      4096 22-May-2022 01:44 deb
+  843859 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:08 git
+  843860 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 JournalCosts-Backups
+  843861 drwxrwxr-x  1000   1000      4096 26-May-2022 23:34 md
+  843862 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 OBSIDIAN.md
+  843863 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 rar
+  843864 drwxrwxr-x  1000   1000      4096 22-May-2022 01:45 SQL
+  843865 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 tictok
+  540759 drwxrwxr-x  1000   1000      4096 29-May-2022 10:06 cpp
+  843868 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 wallparpers
+  352320 drwxrwxr-x  1000   1000      4096 22-May-2022 09:22 pdf_
+  319586 drwxrwxr-x  1000   1000      4096 23-May-2022 20:03 java
+  491608 drwxrwxr-x  1000   1000      4096 23-Jun-2022 19:27 224_java
+  843870 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 Долги
+ 1146973 drwxrwxr-x  1000   1000      4096 30-May-2022 23:58 Yandex.Disk
+  335987 drwxrwxr-x  1000   1000      4096  9-Jun-2022 07:24 JDK 11 17
+  843871 drwxrwxr-x  1000   1000      4096 20-Jun-2022 10:45 Загрузки
+  843872 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 Здоровье
+  852014 drwxrwxr-x  1000   1000      4096 22-May-2022 01:46 книги224
+  852015 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 Личные документы
+  852018 drwxrwxr-x  1000   1000      4096 22-May-2022 01:46 МИША ЧИТАЙ ЭТО
+  852019 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 Расчеты
+  852020 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 таблицы гугл
+  852021 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 читаю
+  789584 -rw-rw-r--  1000   1000      1676 22-May-2022 01:42 быстрые заметки (другая копия)
+  789587 -rw-rw-r--  1000   1000      1676 22-May-2022 01:42 быстрые заметки (копия)
+  335989 drwxrwxr-x  1000   1000      4096  9-Jun-2022 07:23 tsetup.3.7.3
+  274446 -rw-rw-r--  1000   1000     18208  9-Jun-2022 07:23 vim за 5 минут.pdf
+  417843 drwxrwxr-x  1000   1000      4096 21-Jun-2022 15:59 перебрать
+  276804 -rw-rw-r--  1000   1000     23063 12-Jun-2022 16:28 зодиаки месяца.ods
+  266316 -rw-rw-r--  1000   1000     43853 25-Jun-2022 20:58 КАТА оплата обучения.ods
+
+dir_partition inode=843859
+ 1 * Linux                    0  32 33 121601  55  3 1953521485
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1000 GB / 931 GiB
+Directory /misha/Документы/git
+  843859 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:08 .
+  262198 drwxr-xr-x  1000   1000      4096 25-Jun-2022 21:04 ..
+  793672 -rw-rw-r--  1000   1000       380 29-May-2022 18:34 .project
+  852032 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 obsidian.md
+  852033 drwxrwxr-x  1000   1000      4096 13-Jun-2022 19:47 IntelliJIDEA
+  893016 drwxrwxr-x  1000   1000      4096 26-Jun-2022 01:16 stepik90684
+  796111 -rw-rw-r--  1000   1000    523749 25-Jun-2022 16:21 top224JavaBMZ.zip
+ 1130596 drwxrwxr-x  1000   1000      4096 13-Jun-2022 23:28 top224JavaBMZ
+  796112 -rw-rw-r--  1000   1000    334584 25-Jun-2022 16:21 top224JavaBMZ.tar.xz
+ 1130547 drwxrwxr-x  1000   1000      4096 26-Jun-2022 15:33 .metadata
+  352319 drwxrwxr-x  1000   1000      4096 22-May-2022 09:23 deb_
+  796833 -rw-rw-r--  1000   1000    574782 26-Jun-2022 16:07 top224JavaBMZ_0.zip
+  796834 -rw-rw-r--  1000   1000    247670 26-Jun-2022 16:07 stepik90684.zip
+  796835 -rw-rw-r--  1000   1000   4126486 26-Jun-2022 16:07 obsidian.md.zip
+  793673 -rw-rw-r--  1000   1000      1168 29-May-2022 19:37 .classpath
+  796881 -rw-rw-r--  1000   1000  10134403 26-Jun-2022 16:08 IntelliJIDEA.zip
+
+dir_partition inode=1130596
+ 1 * Linux                    0  32 33 121601  55  3 1953521485
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1000 GB / 931 GiB
+Directory /misha/Документы/git/top224JavaBMZ
+ 1130596 drwxrwxr-x  1000   1000      4096 13-Jun-2022 23:28 .
+  843859 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:08 ..
+ 1051669 -rw-rw-r--  1000   1000       372 29-May-2022 19:52 .project
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 src
+ 1130598 drwxrwxr-x  1000   1000      4096 26-Jun-2022 15:54 bin
+ 1130600 drwxrwxr-x  1000   1000      4096 29-May-2022 21:42 .settings
+ 1051991 -rw-rw-r--  1000   1000       402 29-May-2022 19:52 .classpath
+ 1138746 drwxrwxr-x  1000   1000      4096 26-Jun-2022 15:56 .git
+ 1053891 -rw-rw-r--  1000   1000     65708  5-Jun-2022 20:15 hs_err_pid4655.log
+ 1054068 -rw-rw-r--  1000   1000        63 13-Jun-2022 17:32 README.md
+
+dir_partition inode=1130597
+ 1 * Linux                    0  32 33 121601  55  3 1953521485
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1000 GB / 931 GiB
+Directory /misha/Документы/git/top224JavaBMZ/src
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 .
+ 1130596 drwxrwxr-x  1000   1000      4096 13-Jun-2022 23:28 ..
+ 1051989 -rw-rw-r--  1000   1000        64 29-May-2022 19:52 module-info.java
+ 1130606 drwxrwxr-x  1000   1000      4096  5-Jun-2022 16:24 hw02
+ 1130608 drwxrwxr-x  1000   1000      4096  5-Jun-2022 19:34 lesson02
+ 1138697 drwxrwxr-x  1000   1000      4096 25-Jun-2022 22:29 test
+ 1212463 drwxrwxr-x  1000   1000      4096 25-Jun-2022 16:21 hw03
+ 1204256 drwxrwxr-x  1000   1000      4096  8-Jun-2022 21:16 lesson06
+ 1196154 drwxrwxr-x  1000   1000      4096 13-Jun-2022 19:33 lesson07
+ 1204342 drwxrwxr-x  1000   1000      4096 22-Jun-2022 20:45 lesson10
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 hw04inary
+ 1146938 drwxrwxr-x  1000   1000      4096 26-Jun-2022 15:54 hw05ifElse
+ 1130520 drwxrwxr-x  1000   1000      4096 25-Jun-2022 16:21 lesson08
+ 1130525 drwxrwxr-x  1000   1000      4096 25-Jun-2022 17:03 if05
+ 1130526 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:39 special
+
+dir_partition inode=1204318
+ 1 * Linux                    0  32 33 121601  55  3 1953521485
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1000 GB / 931 GiB
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 .
+ 1130596 drwxrwxr-x  1000   1000      4096 13-Jun-2022 23:28 ..
+ 1051989 -rw-rw-r--  1000   1000        64 29-May-2022 19:52 module-info.java
+ 1130606 drwxrwxr-x  1000   1000      4096  5-Jun-2022 16:24 hw02
+ 1130608 drwxrwxr-x  1000   1000      4096  5-Jun-2022 19:34 lesson02
+ 1138697 drwxrwxr-x  1000   1000      4096 25-Jun-2022 22:29 test
+ 1212463 drwxrwxr-x  1000   1000      4096 25-Jun-2022 16:21 hw03
+ 1204256 drwxrwxr-x  1000   1000      4096  8-Jun-2022 21:16 lesson06
+ 1196154 drwxrwxr-x  1000   1000      4096 13-Jun-2022 19:33 lesson07
+ 1204342 drwxrwxr-x  1000   1000      4096 22-Jun-2022 20:45 lesson10
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 hw04inary
+ 1146938 drwxrwxr-x  1000   1000      4096 26-Jun-2022 15:54 hw05ifElse
+ 1130520 drwxrwxr-x  1000   1000      4096 25-Jun-2022 16:21 lesson08
+ 1130525 drwxrwxr-x  1000   1000      4096 25-Jun-2022 17:03 if05
+ 1130526 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:39 special
+
+dir_partition inode=1204318
+ 1 * Linux                    0  32 33 121601  55  3 1953521485
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1000 GB / 931 GiB
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src/hw04inary
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 ..
+ 1184830 -rw-rw-r--  1000   1000      1509 26-Jun-2022 16:05 binDecimalBinary.java
+ 1184835 -rw-rw-r--  1000   1000     20480 26-Jun-2022 16:11 testdisk.log
+ 1183716 -rw-rw-r--  1000   1000       752 26-Jun-2022 00:05 bitToDecimal.java
+ 1183710 -rw-rw-r--  1000   1000      3938 26-Jun-2022 00:10 infoBytesPrimitives.java
+ 1183755 -rw-rw-r--  1000   1000      1738 26-Jun-2022 00:27 binPositiveNegativeDecimal.java
+Directory /misha/Документы/git/top224JavaBMZ/src
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 .
+ 1130596 drwxrwxr-x  1000   1000      4096 13-Jun-2022 23:28 ..
+ 1051989 -rw-rw-r--  1000   1000        64 29-May-2022 19:52 module-info.java
+ 1130606 drwxrwxr-x  1000   1000      4096  5-Jun-2022 16:24 hw02
+ 1130608 drwxrwxr-x  1000   1000      4096  5-Jun-2022 19:34 lesson02
+ 1138697 drwxrwxr-x  1000   1000      4096 25-Jun-2022 22:29 test
+ 1212463 drwxrwxr-x  1000   1000      4096 25-Jun-2022 16:21 hw03
+ 1204256 drwxrwxr-x  1000   1000      4096  8-Jun-2022 21:16 lesson06
+ 1196154 drwxrwxr-x  1000   1000      4096 13-Jun-2022 19:33 lesson07
+ 1204342 drwxrwxr-x  1000   1000      4096 22-Jun-2022 20:45 lesson10
+ 1204318 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 hw04inary
+ 1146938 drwxrwxr-x  1000   1000      4096 26-Jun-2022 15:54 hw05ifElse
+ 1130520 drwxrwxr-x  1000   1000      4096 25-Jun-2022 16:21 lesson08
+ 1130525 drwxrwxr-x  1000   1000      4096 25-Jun-2022 17:03 if05
+ 1130526 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:39 special
+Directory /misha/Документы/git/top224JavaBMZ
+ 1130596 drwxrwxr-x  1000   1000      4096 13-Jun-2022 23:28 .
+  843859 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:08 ..
+ 1051669 -rw-rw-r--  1000   1000       372 29-May-2022 19:52 .project
+ 1130597 drwxrwxr-x  1000   1000      4096 25-Jun-2022 21:38 src
+ 1130598 drwxrwxr-x  1000   1000      4096 26-Jun-2022 15:54 bin
+ 1130600 drwxrwxr-x  1000   1000      4096 29-May-2022 21:42 .settings
+ 1051991 -rw-rw-r--  1000   1000       402 29-May-2022 19:52 .classpath
+ 1138746 drwxrwxr-x  1000   1000      4096 26-Jun-2022 15:56 .git
+ 1053891 -rw-rw-r--  1000   1000     65708  5-Jun-2022 20:15 hs_err_pid4655.log
+ 1054068 -rw-rw-r--  1000   1000        63 13-Jun-2022 17:32 README.md
+Directory /misha/Документы/git
+  843859 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:08 .
+  262198 drwxr-xr-x  1000   1000      4096 25-Jun-2022 21:04 ..
+  793672 -rw-rw-r--  1000   1000       380 29-May-2022 18:34 .project
+  852032 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 obsidian.md
+  852033 drwxrwxr-x  1000   1000      4096 13-Jun-2022 19:47 IntelliJIDEA
+  893016 drwxrwxr-x  1000   1000      4096 26-Jun-2022 01:16 stepik90684
+  796111 -rw-rw-r--  1000   1000    523749 25-Jun-2022 16:21 top224JavaBMZ.zip
+ 1130596 drwxrwxr-x  1000   1000      4096 13-Jun-2022 23:28 top224JavaBMZ
+  796112 -rw-rw-r--  1000   1000    334584 25-Jun-2022 16:21 top224JavaBMZ.tar.xz
+ 1130547 drwxrwxr-x  1000   1000      4096 26-Jun-2022 15:33 .metadata
+  352319 drwxrwxr-x  1000   1000      4096 22-May-2022 09:23 deb_
+  796833 -rw-rw-r--  1000   1000    574782 26-Jun-2022 16:07 top224JavaBMZ_0.zip
+  796834 -rw-rw-r--  1000   1000    247670 26-Jun-2022 16:07 stepik90684.zip
+  796835 -rw-rw-r--  1000   1000   4126486 26-Jun-2022 16:07 obsidian.md.zip
+  793673 -rw-rw-r--  1000   1000      1168 29-May-2022 19:37 .classpath
+  796881 -rw-rw-r--  1000   1000  10134403 26-Jun-2022 16:08 IntelliJIDEA.zip
+Directory /misha/Документы
+  262198 drwxr-xr-x  1000   1000      4096 25-Jun-2022 21:04 .
+  262145 drwxr-xr-x  1000   1000      4096 26-Jun-2022 12:16 ..
+  525635 -rw-rw-r--  1000   1000     98292  8-May-2022 21:09 Аватар везде2022.jpg
+  294584 -rw-rw-r--  1000   1000      1676  8-May-2022 23:20 быстрые заметки
+  352322 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:09 .sync
+  352339 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 Akakli
+  843858 drwxrwxr-x  1000   1000      4096 22-May-2022 01:44 deb
+  843859 drwxrwxr-x  1000   1000      4096 26-Jun-2022 16:08 git
+  843860 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 JournalCosts-Backups
+  843861 drwxrwxr-x  1000   1000      4096 26-May-2022 23:34 md
+  843862 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 OBSIDIAN.md
+  843863 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 rar
+  843864 drwxrwxr-x  1000   1000      4096 22-May-2022 01:45 SQL
+  843865 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 tictok
+  540759 drwxrwxr-x  1000   1000      4096 29-May-2022 10:06 cpp
+  843868 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 wallparpers
+  352320 drwxrwxr-x  1000   1000      4096 22-May-2022 09:22 pdf_
+  319586 drwxrwxr-x  1000   1000      4096 23-May-2022 20:03 java
+  491608 drwxrwxr-x  1000   1000      4096 23-Jun-2022 19:27 224_java
+  843870 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 Долги
+ 1146973 drwxrwxr-x  1000   1000      4096 30-May-2022 23:58 Yandex.Disk
+  335987 drwxrwxr-x  1000   1000      4096  9-Jun-2022 07:24 JDK 11 17
+  843871 drwxrwxr-x  1000   1000      4096 20-Jun-2022 10:45 Загрузки
+  843872 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 Здоровье
+  852014 drwxrwxr-x  1000   1000      4096 22-May-2022 01:46 книги224
+  852015 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 Личные документы
+  852018 drwxrwxr-x  1000   1000      4096 22-May-2022 01:46 МИША ЧИТАЙ ЭТО
+  852019 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 Расчеты
+  852020 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 таблицы гугл
+  852021 drwxrwxr-x  1000   1000      4096 22-May-2022 01:42 читаю
+  789584 -rw-rw-r--  1000   1000      1676 22-May-2022 01:42 быстрые заметки (другая копия)
+  789587 -rw-rw-r--  1000   1000      1676 22-May-2022 01:42 быстрые заметки (копия)
+  335989 drwxrwxr-x  1000   1000      4096  9-Jun-2022 07:23 tsetup.3.7.3
+  274446 -rw-rw-r--  1000   1000     18208  9-Jun-2022 07:23 vim за 5 минут.pdf
+  417843 drwxrwxr-x  1000   1000      4096 21-Jun-2022 15:59 перебрать
+  276804 -rw-rw-r--  1000   1000     23063 12-Jun-2022 16:28 зодиаки месяца.ods
+  266316 -rw-rw-r--  1000   1000     43853 25-Jun-2022 20:58 КАТА оплата обучения.ods
+Directory /misha
+  262145 drwxr-xr-x  1000   1000      4096 26-Jun-2022 12:16 .
+       2 drwxr-xr-x     0      0      4096 23-May-2022 14:40 ..
+  262146 -rw-r--r--  1000   1000       807  2-May-2022 14:59 .profile
+  262147 -rw-r--r--  1000   1000      3771  2-May-2022 14:59 .bashrc
+  262148 -rw-r--r--  1000   1000       220  2-May-2022 14:59 .bash_logout
+  262149 drwx------  1000   1000      4096 25-Jun-2022 00:30 .cache
+  262150 drwx------  1000   1000      4096 26-May-2022 23:26 .local
+  262154 drwx------  1000   1000      4096 25-Jun-2022 00:32 .config
+  262185 drwx------  1000   1000      4096 30-May-2022 18:03 .gnupg
+  262194 drwxr-xr-x  1000   1000      4096 27-May-2022 21:03 Рабочий стол
+  262195 drwxr-xr-x  1000   1000      4096 25-Jun-2022 00:00 Загрузки
+  262196 drwxr-xr-x  1000   1000      4096  2-May-2022 15:06 Шаблоны
+  262197 drwxr-xr-x  1000   1000      4096  2-May-2022 15:06 Общедоступные
+  262198 drwxr-xr-x  1000   1000      4096 25-Jun-2022 21:04 Документы
+  262199 drwxr-xr-x  1000   1000      4096 26-May-2022 23:26 Музыка
+  262200 drwxr-xr-x  1000   1000     12288 25-Jun-2022 00:34 Изображения
+  270337 drwxr-xr-x  1000   1000     12288 20-Jun-2022 10:46 Видео
+  265725 -rw-------  1000   1000     18766 26-Jun-2022 15:56 .bash_history
+  262265 -rw-r--r--  1000   1000         0  2-May-2022 15:13 .sudo_as_admin_successful
+  262341 -rw-rw-r--  1000   1000        24  2-May-2022 15:57 .aspell.en.prepl
+  262342 -rw-rw-r--  1000   1000        31  2-May-2022 15:57 .aspell.en.pws
+  294915 drwx------  1000   1000      4096 25-Jun-2022 00:15 snap
+  294946 drwx------  1000   1000      4096  3-May-2022 17:43 .ssh
+  294953 drwx------  1000   1000      4096  2-May-2022 16:07 .mozilla
+  311333 drwx------  1000   1000      4096  2-May-2022 16:09 .yandex
+  319515 drwx------  1000   1000      4096  2-May-2022 16:09 .pki
+  319534 drwxrwxr-x  1000   1000      4096  2-May-2022 16:09 .java
+  327728 drwxrwxr-x  1000   1000      4096  4-Jun-2022 12:19 .android
+  458786 drwxrwxr-x  1000   1000      4096  2-May-2022 16:53 .vscode
+  540701 drwx------  1000   1000      4096  2-May-2022 18:33 .gnome
+  269965 -rw-rw-r--  1000   1000        66 23-May-2022 21:23 .gitconfig
+  548898 drwxrwxr-x  1000   1000      4096  2-May-2022 19:01 .jdks
+  327778 drwxrwxr-x  1000   1000      4096 24-May-2022 12:27 Downloads
+  294420 -rw-------  1000   1000     27839 26-Jun-2022 12:16 .viminfo
+  344125 drwxrwxr-x  1000   1000      4096  6-May-2022 21:36 VirtualBox VMs
+  294976 drwx------  1000   1000      4096 22-Jun-2022 11:45 .vnc
+  267912 -rw-------  1000   1000     12288 21-May-2022 09:43 .swo
+  434260 drwxrwxr-x  1000   1000      4096 21-May-2022 13:52 .gem
+  426049 drwxrwxr-x  1000   1000      4096  6-May-2022 21:52 .PlayOnLinux
+  266115 lrwxrwxrwx  1000   1000        37  6-May-2022 21:45 PlayOnLinux's virtual drives
+  264516 -rw-rw-r--  1000   1000       161  6-May-2022 21:49 .wget-hsts
+  614471 drwx------  1000   1000      4096  8-May-2022 17:25 .emacs.d
+  264940 -rw-rw-r--  1000   1000    247694 14-May-2022 17:40 mpv-shot0001.jpg
+  303187 drwxrwxr-x  1000   1000      4096 15-May-2022 08:52 .gradle
+  267886 -rw-rw-r--  1000   1000      1760 12-Aug-2013 19:10 YANDEX-DISK-KEY.GPG
+  884750 drwxrwxr-x  1000   1000      4096 15-May-2022 08:52 .m2
+  729180 drwxr-xr-x  1000   1000      4096 18-May-2022 19:18 .anydesk
+  265356 -rw-rw-r--  1000   1000       481 22-May-2022 01:10 java_01.java
+  999505 drwx------  1000   1000      4096 17-May-2022 08:04 .recoll
+  278974 -rw-------  1000   1000     12288 17-May-2022 22:30 .swp
+  303197 drwxr-x---  1000   1000      4096 19-May-2022 21:22 .vim
+  274206 -rw-rw-r--  1000   1000      2887 22-May-2022 10:55 .vimrc
+  753748 drwxrwxr-x  1000   1000      4096 22-May-2022 01:16 dotfiles
+  291639 -rw-rw-r--  1000   1000      2887 22-May-2022 10:55 .vimrc_old
+  262603 -rw-rw-r--  1000   1000         0  7-Jun-2022 20:41 .selected_editor
+  304107 -rw-rw-r--  1000   1000 115698021 21-Jun-2022 15:20 2022-06-21 15-14-11.mkv
+  276312 -rw-r--r--  1000   1000   1764044 22-Jun-2022 12:23 test-mic.wav
+  301648 -rw-rw-r--  1000   1000     62951 25-Jun-2022 23:08 testdisk.log
+  311399 drwxrwxr-x  1000   1000      4096 24-May-2022 21:38 .eclipse
+  344173 drwxrwxr-x  1000   1000      4096 24-May-2022 19:19 .swt
+  909393 drwxrwxr-x  1000   1000      4096 26-Jun-2022 14:22 .p2
+  352359 drwxrwxr-x  1000   1000      4096 29-May-2022 20:07 eclipse-workspace
+  270573 -rw-rw-r--  1000   1000     22992 12-Jun-2022 16:27 зодиаки месяца.ods
+  298667 -rw-rw-r--  1000   1000  17955536 23-Jun-2022 15:35 2022-06-23 15-35-04.mkv
+  335984 drwxrwxr-x  1000   1000      4096 27-May-2022 20:55 eclipse2022
+  761967 drwxrwxr-x  1000   1000      4096 27-May-2022 21:15 .webclipse
+  778351 drwxrwxr-x  1000   1000      4096 27-May-2022 21:27 .codetogether
+  282121 -rw-rw-r--  1000   1000       103 27-May-2022 21:15 .ctsystem
+  300596 -rw-rw-r--  1000   1000 705586781 23-Jun-2022 21:06 2022-06-23 20-31-16.mkv
+  269882 -rw-rw-r--  1000   1000   7707715  4-Jun-2022 13:22 2022-06-04 13-22-03.mkv
+Directory /
+       2 drwxr-xr-x     0      0      4096 23-May-2022 14:40 .
+       2 drwxr-xr-x     0      0      4096 23-May-2022 14:40 ..
+      11 drwx------     0      0     16384 27-Apr-2022 05:45 lost+found
+ 12582913 drwxr-xr-x     0      0      4096 26-Jun-2022 14:02 timeshift
+  262145 drwxr-xr-x  1000   1000      4096 26-Jun-2022 12:16 misha
+
+TestDisk exited normally.
