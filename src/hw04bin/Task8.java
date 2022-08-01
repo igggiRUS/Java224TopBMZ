@@ -1,24 +1,24 @@
-package java224.hw04Bin;
-/**
- * Задание 6
- * Обнулить все кроме последних i битов числа N. Вывести
- * результат на консоль в двоичном виде.
- */
+package hw04bin;
 
 import java.util.Scanner;
 
-public class Task6 {
+/**
+ * Задание 8
+ * Обнулить крайний левый (старший разряд) единичный
+ * бит числа N. Вывести результат на консоль в двоичном виде.
+ */
+
+public class Task8 {
     public static void main(String[] args) {
 
-        System.out.println("Укажите порядковый номер бита n <= 32: ");
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt(); // степень порядок бита
-        sc.close();
+//        System.out.println("Укажите порядковый номер бита n = 24: ");
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt(); // степень порядок бита
+//        sc.close();
 
         int flags = -1431655766;
-//        int mask = -1; // десятичное число для проверки
-        byte mask = 0b01;
-
+        int mask = 255;
+        int n = 24;
 //        блок для тестов
 //                int n = 12;
 //        int z = ~(mask << n);
@@ -30,4 +30,3 @@ public class Task6 {
         System.out.printf("\n%32d & \n%32d =\n%32d", flags, mask, result);
     }
 }
-

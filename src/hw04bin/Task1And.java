@@ -1,4 +1,4 @@
-package java224.hw04Bin;
+package hw04bin;
 
 /**
  * Задание 1

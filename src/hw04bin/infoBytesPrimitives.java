@@ -1,4 +1,4 @@
-package hw04inary;
+package hw04bin;
 
 public class infoBytesPrimitives {
 	public static void main(String[] args) {
